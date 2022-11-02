@@ -1,0 +1,44 @@
+Assignment 8:
+Using Express ,mongodb
+## create express application with two modules (User && notes) 
+## User has (name ,email,password "hash password" ,age ,phone,confirmed, Profile_picture)
+## notes has (title ,content,createdBy=> ref to user model)
+
+DON'T FORGET TO
+GET USER ID FROM TOKEN
+USER MUST CONFIRM HIS EMAIL BEFOR USING ANY API
+
+
+APIS CRUD Operation For User module
+## 1- Sign Up (Send email to user) (Aplly Joi validation)( token expired in 1 minute )
+
+## 2- Sign in (send token) (user must be confirmed)(Aplly Joi validation)
+
+## 3- Refresh token 
+
+## 4- forget password 
+
+## 5- change password (user must be logged in)
+
+## 6- DELETE USER (account owner only)(user must be logged in and confirmed)(Aplly Joi validation)
+
+## 7- Get all users (user must be logged in and confirmed)
+
+## 8- get specific user by id with his notes (user must be logged in and confirmed)(Aplly Joi validation)
+
+
+APIS CRUD Operation For notes module 
+GET USER ID FROM TOKEN
+## 1- CREATE note  (user must be logged in and confirmed)(Aplly Joi validation)
+
+## 2- UPDATE note  (user must be logged in and confirmed)(Aplly Joi validation)
+
+## 3- DELETE note  (user must be logged in and confirmed)(Aplly Joi validation)
+
+## 5- get specific note by id (user must be logged in and confirmed)(Aplly Joi validation)
+
+## 6- search about note by (title or content) (user must be logged in and confirmed)(Aplly Joi validation)
+
+## 4- get all notes(user must be logged in)(user must be logged in and confirmed)
+
+## 7- get notes that created by specific user (Aplly Joi validation)
