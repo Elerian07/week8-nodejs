@@ -1,0 +1,23 @@
+Assignment 7
+Using Express ,mongodb
+## create express application with two modules (User) 
+## User has (name ,email,password ,age ,phone)
+
+APIS CRUD Operation For User module
+## 1- CREATE New USER (hash password)
+
+## 2- UPDATE USER 
+
+## 3- DELETE USER && Soft DELETE 
+
+## 4- Get all users
+
+## 5- get specific user by id with his notes
+
+## 6- search about user by (name or email) 
+
+## 7 - get all user with age greate than 30 
+
+## 8 - get all user with age less than 30 
+
+## 9 - get all user with age less or equal than 30 
